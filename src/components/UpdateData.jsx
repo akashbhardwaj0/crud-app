@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { updateUser } from "../features/userDetailsSlice";
 
-export default function Update() {
+export default function UpdateData() {
   const navigate = useNavigate();
   const [updateData, setUpdateData] = useState({});
   const { id } = useParams();
